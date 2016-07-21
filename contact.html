@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		 <link type="text/css" rel="stylesheet"  href="stylesheet.css">
+		 <SCRIPT src="jquery.js"></SCRIPT>
+		 <SCRIPT src="script.js"></SCRIPT>
+		<meta charset="UTF-8">
+		<title>Portfolio</title>
+
+	</head>
+
+	<body>
+		<header id="header" role="banner">
+			<h1 class="logo">Ray Walters</h1>
+		<div id="main-nav" role="navigation">
+	
+			<ul id="nav">
+				<li class="topnav"><a href="index.html">Home</a></li>
+				<li class="topnav"><a href="about.html">About</a></li>
+				<li class="topnav"><a href="portfolio.html">Portfolio</a></li>
+				<li class="topnav"><a href="resume.html">Resume</a></li>
+				<!-- <li class="topnav"><a href="contact.html">Contact</a></li> -->
+				<li class="dropdown"><a href="javascript:void(0)" class="dropbtn" onclick="dropFunction()">&#9776;</a>
+					<div class="dropdown-content" id="myDropdown">
+						<a href="index.html">Home</a>
+						<a href="about.html">About</a>
+						<a href="portfolio.html">Portfolio</a>
+						<a href="resume.html">Resume</a>
+						<a href="contact.html">Contact</a>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</header>
+	<div class="intro">
+			
+		</div>
+	<div class="main-content">
+		<h1>Contact Me</h1>
+
+	<form novalidate>
+		<h3>About You</h3>
+		<p>Your Name</p>
+		<input type="text" name="yourName" placeholder="ex: Ray Walters"/>
+		<p>Email Address</p>
+		<input type="text" name="email" placeholder="ex: rlwalters3@yahoo.com"/>
+		<p>Your Website</p>
+		<input type="text" name="yourWebsite" placeholder="ex: yoururl.com"/>
+
+		<h3>Message</h3>
+		<textarea id="message" name="comments" placeholder="Enter message here..."></textarea></br>
+		</form>
+
+		<input id="submit" type="submit" value="Submit" onclick="upCase()">
+
+
+
+	
+</div>
+<footer>
+	<ul id="end-nav">
+				<li class="bottomnav"><a href="index.html">Home</a></li>
+				<li class="bottomnav"><a href="about.html">About</a></li>
+				<li class="bottomnav"><a href="portfolio.html">Portfolio</a></li>
+				<li class="bottomnav"><a href="resume.html">Resume</a></li>
+				<!-- <li class="bottomnav"><a href="contact.html">Contact</a></li> -->
+			</ul>
+</footer>
+</body>
+
+</html>
