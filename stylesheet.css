@@ -115,7 +115,6 @@ li.dropdown{
 #nav{
 	list-style-type:none;
 	float:right;
-
 }
 ul#nav li.icon{
 	display:none:;
@@ -222,6 +221,9 @@ textarea{
 	/*background-color:white;*/
 	border-radius:5px;
 	padding:5px;
+}
+.resume > a{
+	padding-left:none;
 }
 h2{
 	text-decoration:underline;
@@ -347,14 +349,25 @@ ul#nav a.active{
 	#nav .dropdown{
 		display:inline;
 		float:left;
+		margin-left:60%;
 
 	}
 	#main-nav{
 		width:20%;
 		display:inline-block;
+
 	}
 	.dropdown-content{
 		background-color:silver;
+		float:left;
+	}
+	#myDropdown{
+		margin-left:-10.5%;
+		margin-top:4.5%;
+		border: 1px solid black;
+	}
+	#myDropdown > a{
+		border: 1px solid black;
 
 	}
 /*	h1{
@@ -386,6 +399,9 @@ ul#nav a.active{
 	float:right;
 	margin-right:16%;
 	
+}
+a.dropbtn{
+	float:left;
 }
 
 
