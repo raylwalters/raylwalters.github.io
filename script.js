@@ -1,16 +1,15 @@
 function setActive(){
-	var screenSize = $(window).width();
-	if(screenSize > 850){
-		page = document.getElementById("main-nav").getElementsByTagName("a");
+	if($(window).width() > 850){
+		var page = document.getElementById("nav").getElementsByTagName("a");
 		for(i=0; i<page.length; i++){
 			if(document.location.href.indexOf(page[i].href)>=0){
 				page[i].className="active";
 			}
 		}
 	}
-};
+}
 window.onload = setActive;
-// $(window).resize(setActive());
+
 
 function dropFunction(){
 	document.getElementById("myDropdown").classList.toggle("show");
